@@ -82,4 +82,16 @@ footer{
     background-color: lightgray;
     text-align: center;
 }
+@media (max-width:700px){
+ 
+    header {
+        display: none !important;;
+    }
+}
 
+@media (min-width:700px){
+ 
+    #error-message{
+        display: none;
+    }
+}

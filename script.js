@@ -19,6 +19,7 @@ const easy = [
   let timer;
 
   window.onload = function(){
+    
     // Start the game
     id('start-button').addEventListener('click',startGame)
     // Adding the event listener
